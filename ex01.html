@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>valitdateClassname</title>
+</head>
+<body>
+<script>
+    function isValidEmail(str) {
+        regexp = /^[CAP]+[0-9]{4,4}[G-M]$/;
+        if (regexp.test(str)) {
+            alert("ten lop hop le")
+        } else {
+            alert("ten lop khong hop le")
+        }
+    }
+    while (true) {
+        var string = prompt("moi nhap vao ten lop de kiem tra")/*.toString()*/;
+        isValidEmail(string);
+    }
+</script>
+</body>
+</html>
